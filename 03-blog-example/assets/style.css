@@ -149,7 +149,7 @@ a {
 .heading-decoration {
   position: absolute;
   top: -25px;
-  right: 0px;
+  right: calc(0px + (75px / 2));
   width: 75px;
   height: 75px;
   background: papayawhip;
