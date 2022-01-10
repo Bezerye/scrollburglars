@@ -144,12 +144,17 @@ a {
   .social-icons {
     display: none;
   }
+
+  main {
+    overflow: hidden;
+  }
 }
 
 .heading-decoration {
   position: absolute;
   top: -25px;
-  right: calc(0px + (75px / 2));
+  /* right: calc(0px + (75px / 2)); */
+  right: 0;
   width: 75px;
   height: 75px;
   background: papayawhip;
